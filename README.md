@@ -1,3 +1,13 @@
+> **Fork on pymorphy3.** Branch `pymorphy3` of this fork replaces unmaintained `pymorphy2` with
+> [`pymorphy3`](https://github.com/no-plagiarism/pymorphy3): no `pkg_resources`, works on Python 3.9–3.13.
+> Upstream: [natasha/natasha](https://github.com/natasha/natasha).
+>
+> - Based on the `v1.6.0` release, not on `master`.
+> - `setuptools` is no longer a runtime dependency (natasha#138, natasha#146).
+> - `yargy` comes from [hodzanassredin/yargy@pymorphy3](https://github.com/hodzanassredin/yargy/tree/pymorphy3).
+>
+> Install: `pip install "natasha @ https://github.com/hodzanassredin/natasha/archive/refs/heads/pymorphy3.tar.gz"`
+
 
 <img src="https://github.com/natasha/natasha-logos/blob/master/natasha.svg">
 
