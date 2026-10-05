@@ -8,7 +8,7 @@ with open('README.md') as file:
 
 setup(
     name='natasha',
-    version='1.6.0',
+    version='1.6.0+pymorphy3',
 
     description='Named-entity recognition for russian language',
     long_description=description,
@@ -38,11 +38,11 @@ setup(
         ]
     },
     install_requires=[
-        'pymorphy2',
+        'pymorphy3>=2.0',
         'razdel>=0.5.0',
         'navec>=0.9.0',
         'slovnet>=0.6.0',
-        'yargy>=0.16.0',
+        'yargy @ git+https://github.com/hodzanassredin/yargy.git@pymorphy3',
         'ipymarkup>=0.8.0',
     ]
 )
